@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+main(){
+ int num1;
+int num2;
+int num3;
+int num4;
+int num5;
+int num6;
+int num7;
+int num8;
+int num9;
+int num10;
+int num11;
+int num12;
+int num13;
+int num14;
+int num15;
+int add;
+int multiply;
+int subtract;
+int sum;
+cout<<"enter 1 number : ";
+cin>>num1;
+cout<<"enter 2 number : ";
+cin>>num2;
+cout<<"enter 3 number : ";
+cin>>num3;
+cout<<"enter 4 number : ";
+cin>>num4;
+cout<<"enter 5 number : ";
+cin>>num5;
+cout<<"enter 6 number : ";
+cin>>num6;
+cout<<"enter 7 number : ";
+cin>>num7;
+cout<<"enter 8 number : ";
+cin>>num8;
+cout<<"enter 9 number : ";
+cin>>num9;
+cout<<"enter 10 number : ";
+cin>>num10;
+cout<<"enter 11 number : ";
+cin>>num11;
+cout<<"enter 12 number : ";
+cin>>num12;
+cout<<"enter 13 number : ";
+cin>>num13;
+cout<<"enter 14 number : ";
+cin>>num14;
+cout<<"enter 15 number : ";
+cin>>num15;
+
+add= num1 + num2 + num3 + num4 + num5;
+multiply=num6 * num7 * num8 * num9 * num10;
+subtract = num11 -num12 -num13 -num14- num15;
+sum= (add+multiply) - subtract;
+cout<<"total = "<<sum;
+}
+
